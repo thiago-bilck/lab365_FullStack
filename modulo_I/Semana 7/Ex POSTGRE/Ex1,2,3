@@ -1,0 +1,46 @@
+create table cliente(
+	id serial primary key,
+	nome varchar(50),
+	cpf char(11),
+	idade varchar(3),
+	altura numeric(3,2)
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+select nome, altura from cliente
+
+
+
+
+
+
+
+
+delete from cliente where altura<1.80
+
+
+
+
+
+
+
+
+
+
+
+alter table cliente drop column cpf
+select * from cliente
+drop table cliente
