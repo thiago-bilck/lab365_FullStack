@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício semana 03</title>
-    <link rel="stylesheet" href="./assets/styles/home.css">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="./assets/styles/home.css">
 </head>
 <body>
-    <div class="mainConteiner">
-    <form action="post" class="form">
-        <div class="header">
-        <span id="signUp">Sign Up</span>
-        <span>Insira seus dados para criar uma conta</span>
-    </div>
-        <div class="inputs">
-            <input type="text" placeholder="Empresa">
-            <input type="text" placeholder="CNPJ">
-            <input type="text" placeholder="Responsável">
-            <input type="text" placeholder="Email">
-            <input type="text" placeholder="Telefone">
-            <input type="text" placeholder="Senha">
-            <input type="text" placeholder="Confirmar senha">
-        </div>
-
-        <button class="button">Criar Conta</button>
-
+  <div class="container">
+    <form class="form">
+      <h2>Sign Up</h2>
+      <span id="subtitle">Insira seus dados para criar uma conta</span>
+      <div class="group">
+        <input type="text" id="empresa" name="empresa" placeholder="Empresa">
+      </div>
+      <div class="group">
+        <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ">
+      </div>
+      <div class="group">
+        <input type="text" id="responsavel" name="responsavel" placeholder="Responsável">
+      </div>
+      <div  class="group2">
+        <input type="text" id="email" name="email" placeholder="Email">
+      </div>
+      <div  class="group2">
+        <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+      </div>
+      <div  class="group2">
+        <input type="password" id="senha" name="senha" placeholder="Senha">
+      </div>
+      <div  class="group2">
+        <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirmar senha">
+      </div>
+      <button type="submit">Criar Conta</button>
     </form>
-</div>
+  </div>
+  <span class="outside-text">Já possui uma conta?<a href="" id="anchor-login">Realizar login</a></span>
 </body>
 </html>
