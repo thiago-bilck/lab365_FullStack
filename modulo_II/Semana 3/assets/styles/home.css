@@ -38,7 +38,7 @@ body {
    margin-bottom: 5px
  }
 
- #subtitle{
+.subtitle{
    font-size: 18px;
    color: var(--secondary-text);
    margin-bottom: 40px;
@@ -86,153 +86,10 @@ body {
  
  .outside-text{
   margin-top: 20px ;
+  color: var(--secondary-text);
  }
 
- #anchor-login{
+ .anchor {
    color: var(--button-link-color);
    padding: 5px;
  }
-
-
-/*body {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   text-align: center;
-
-}
- 
-.form{
-   margin: auto;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   width: 50%;
-}
-
-
-
-
-
-
-
-
-/*body{
-   background-color: #f0f0f0;
-   display: flex;
-   flex-direction: column;
-}
-
-.mainConteiner{
-    margin: auto;
-    width: 400px;
-    margin-top: 10%;
-    background-color: #ffffff;
-    border-radius: 6px;
-    justify-content: center;
-    align-items: center;
-}
-
- .form{
-    font-family:  'Inter', sans-serif;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-    align-items: center;
- }
-
- .header{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-   
- }
- #signUp{
-    font-weight: bold;
-    font-size: 45px;
-    color: var(--primary-text);
-
- }
-
- #subtitle{
-   font-size: 15px;
-   color: var(--secondary-text);
- }
-
- .inputs {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
-    
-    height: 100px;
-    border-radius: 6px;
-    padding-left: 15px;
-    border-color: var(--input-border-color);
-    color: var(--placeholder-color);
-
- }
-
- /*.smallInputs input{
-   display: flex;
-   flex-wrap: wrap; /* Permite que os elementos quebrem linha 
-   justify-content: space-between;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-    
-    height: 40px;
-    padding-left: 15px;
-    border-radius: 6px;
-    border-color: var(--input-border-color);
-    color: var(--placeholder-color);
-   align-items: center;
- }
-
- .smallInputs {
-   display: flex;
-   flex-wrap: wrap; 
-   justify-content: space-between;
-}
-
-.smallInputs input {
-   width: 48%; 
-   margin-bottom: 10px; 
-  
-}
-
- 
- 
-
-.button{
-   margin: auto;
-   font-size: 20px;
-   text-align: center;
-   font-weight: bold;
-   line-height: 43px;
-   display: flex;
-   flex-direction: column;
-   width: 40%;
-   height: 50px;
-   margin-top: 20px;
-   border-radius: 6px;
-   background-color: var(--button-link-color);
-   color: #ffffff;
-}
-
-#text-sign-in{
-   margin: auto;
-   text-align: center;
-   margin-top: 15px;
-   font-family:  'Inter', sans-serif;
-   color: var(--secondary-text);
-}
-
-#link-login{
-   color: var(--button-link-color);
-}*/
