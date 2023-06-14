@@ -2,7 +2,7 @@ import './Header.css'
 
 function Header(props) {
     return (  
-        <div className="header">
+        <div className="header p-3">
             <h1>Bem vindo {props.nome}</h1>
         </div>
     );

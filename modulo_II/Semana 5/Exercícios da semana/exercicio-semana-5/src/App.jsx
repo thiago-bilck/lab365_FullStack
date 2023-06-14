@@ -1,5 +1,8 @@
 import './App.css'
+import Banner from './components/Banner/Banner';
+import Content from './components/Content/Content';
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -7,10 +10,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='body'>
       
         <Header nome={name}/>
-        <h1>Hello World!</h1>
+        <Banner/>
+        <Content/>
+        <Footer></Footer>
       </div>
     </>
   )
