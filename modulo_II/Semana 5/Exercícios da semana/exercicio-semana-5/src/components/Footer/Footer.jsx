@@ -1,9 +1,10 @@
-function Footer() {
+/* eslint-disable react/prop-types */
+function Footer({footerMessage}) {
     return (  
         <div className="container-fluid bg-primary">
             <div className="row">
                 <div className="col-lg-4 ">
-                    <h3>Muito obrigado pela visita!</h3>
+                    <h3>{footerMessage}</h3>
                 </div>
                 <div className="col-lg-4">
                     <h3>Siga nossas redes sociais:</h3>

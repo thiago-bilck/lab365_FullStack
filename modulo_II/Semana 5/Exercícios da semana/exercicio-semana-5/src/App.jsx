@@ -7,15 +7,18 @@ import Footer from './components/Footer/Footer'
 function App() {
 
   const name = 'Thiago';
+  const messageBanner = 'Legal ter você conosco';
+  const title = 'Título do cartão';
+  const lastMessage = 'Obrigado pela sua visita'
 
   return (
     <>
       <div className='body'>
       
         <Header nome={name}/>
-        <Banner/>
-        <Content/>
-        <Footer></Footer>
+        <Banner message={messageBanner}/>
+        <Content cardTitle={title}/>
+        <Footer footerMessage={lastMessage}></Footer>
       </div>
     </>
   )

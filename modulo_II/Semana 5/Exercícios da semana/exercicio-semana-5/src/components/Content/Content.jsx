@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import './Content.css'
 
-function Content() {
+function Content({cardTitle}) {
   return (
     <div className="card-group m-3 mb-5">
       <div className="card">
         <img src="..." className="card-img-top" alt="..." />
         <div className="card-body card1">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">{cardTitle}</h5>
           <p className="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This content is a little bit longer.
@@ -21,7 +22,7 @@ function Content() {
       <div className="card">
         <img src="..." className="card-img-top" alt="..." />
         <div className="card-body card2">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">{cardTitle}</h5>
           <p className="card-text">
             This card has supporting text below as a natural lead-in to
             additional content.
@@ -36,7 +37,7 @@ function Content() {
       <div className="card">
         <img src="..." className="card-img-top" alt="..." />
         <div className="card-body card3">
-          <h5 className="card-title">Card title</h5>
+          <h5 className="card-title">{cardTitle}</h5>
           <p className="card-text">
             This is a wider card with supporting text below as a natural lead-in
             to additional content. This card has even longer content than the
