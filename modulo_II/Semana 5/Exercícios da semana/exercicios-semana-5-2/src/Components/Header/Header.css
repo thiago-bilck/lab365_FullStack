@@ -1,0 +1,9 @@
+.profilePhoto {
+    width: 30px;
+    height: 30px;
+}
+
+a {
+   color: inherit !important;
+   text-decoration: none !important;
+}
