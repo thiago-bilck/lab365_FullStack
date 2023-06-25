@@ -27,7 +27,7 @@ const Header = () => {
         <nav className="menu-principal-wrapper">
             <div className="logo-wrapper">
                 <img src={Logo} alt="logo" className="logo" />
-                <h1><strong>Minha Empresa</strong></h1>
+                <h1><strong>RUMO CERTO </strong></h1>
             </div>
             <ul className="menu-wrapper">
                 {menu.map(renderMenuItem)}

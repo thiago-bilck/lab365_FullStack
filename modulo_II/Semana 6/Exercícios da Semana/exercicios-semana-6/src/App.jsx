@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Banner></Banner>
+    <Banner slogan={'Sempre prontos para lhe ajudar na sua aventura!'}></Banner>
     <Main></Main>
     </>
   );
