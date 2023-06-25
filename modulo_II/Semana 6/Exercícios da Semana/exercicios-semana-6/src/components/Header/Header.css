@@ -1,0 +1,33 @@
+/* @import '../../App.css' */
+
+.menu-principal-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #133B11;
+    color: rgb(201, 50, 50);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.menu-principal-wrapper .menu-wrapper {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu-principal-wrapper .menu-wrapper li a {
+    text-decoration: none;    
+}
+
+.menu-principal-wrapper .logo {
+    width: 2rem;
+}
+
+.menu-principal-wrapper .logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
