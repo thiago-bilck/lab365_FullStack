@@ -1,6 +1,6 @@
 import LikesButton from "../LikesButton/LikesButton";
 
-function UserCard({ nickname, age, email }) {
+function UserCard({ nickname, age, email, onEditUser }) {
   console.log(nickname);
 
   return (
@@ -10,6 +10,7 @@ function UserCard({ nickname, age, email }) {
         <p className="card-text">Idade: {age}</p>
         <p className="card-text">Email: {email}</p>
         <LikesButton></LikesButton>
+        <button onClick={onEditUser}><img src="./edit-icon.svg"/></button>
       </div>
     </div>
   );

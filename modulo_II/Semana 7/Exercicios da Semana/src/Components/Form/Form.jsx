@@ -25,13 +25,34 @@ function Form() {
       alert("Digite um email");
     }
 
-    setUsersList([...usersList, user]);
+    //craido para editar o usuario
+    if(editingUserIndex !== null) {
+      usersList[editingUserIndex] = user;
+      setUsersList(usersList)
+      setEditingUserIndex(null)
+    } else {
+      setUsersList([...usersList, user]);
+    }
+
     console.log(usersList);
     setUser({
       nickname: "",
       age: "",
       email: "",
     });
+  }
+
+//craido para editar o usuario
+  const [editingUserIndex, setEditingUserIndex] = useState(null)
+ 
+  //craido para editar o usuario
+  function editUser(i) {
+
+    setEditingUserIndex(i) 
+
+    setUser(usersList[i])
+
+
   }
 
   return (
@@ -58,7 +79,7 @@ function Form() {
         ></input>
 
         <button type="submit" onClick={submit}>
-          Adicionar usuário
+          {editingUserIndex == null ? 'Adicionar usuário' : 'Editar usuário'}
         </button>
       </form>
 
@@ -66,7 +87,7 @@ function Form() {
         {usersList.map((u, i) => {
           return (
             <div className="col-3" key={i}>
-              <UserCard nickname={u.nickname} age={u.age} email={u.email} />
+              <UserCard nickname={u.nickname} age={u.age} email={u.email} onEditUser={() => editUser(i)} />
             </div>
           );
         })}
