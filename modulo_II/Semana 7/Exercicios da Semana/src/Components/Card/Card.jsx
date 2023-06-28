@@ -1,3 +1,5 @@
+import LikesButton from "../LikesButton/LikesButton";
+
 function UserCard({ nickname, age, email }) {
   console.log(nickname);
 
@@ -7,6 +9,7 @@ function UserCard({ nickname, age, email }) {
         <h5 className="card-title">Nickname: {nickname}</h5>
         <p className="card-text">Idade: {age}</p>
         <p className="card-text">Email: {email}</p>
+        <LikesButton></LikesButton>
       </div>
     </div>
   );
