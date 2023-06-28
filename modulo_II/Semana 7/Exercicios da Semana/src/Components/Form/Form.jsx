@@ -1,5 +1,6 @@
 import { useState } from "react";
 import UserCard from "../Card/Card";
+import SearchInput from "../SearchInput/SearchInput";
 
 function Form() {
   const [user, setUser] = useState({
@@ -92,6 +93,8 @@ function Form() {
           );
         })}
       </div>
+
+      <SearchInput usersList={usersList}></SearchInput>
     </>
   );
 }
