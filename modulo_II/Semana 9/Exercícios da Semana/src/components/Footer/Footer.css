@@ -1,0 +1,15 @@
+
+
+.footer-wrapper {
+    background-color: #133b11;
+    color: #c93232;
+}
+
+.footerContainer {
+    display: inline;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
